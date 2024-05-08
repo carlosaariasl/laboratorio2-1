@@ -10,6 +10,21 @@ int contador=0;
 char caracter=' ';
 
 
+ rect(20, 15, 190, 40);
+  fill(#FFFCFC);
+
+  textSize(40);//botonC
+  fill(#000000);//color negro
+  rect(22, 65, 40, 40);
+  fill(#FFFCFC);
+  text("C", 30, 100);
+
+  textSize(35);//boton()
+  fill(#000000);//color negro
+  rect(72, 65, 40, 40);
+  fill(#FFFCFC);
+  text("()", 82, 95);
+
 void draw() {
 
   rect(20, 15, 190, 40);
